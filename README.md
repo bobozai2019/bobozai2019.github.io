@@ -1,6 +1,12 @@
 # 个人网站
 
-这是一个适合 GitHub Pages 部署的静态个人网站第一版。
+这是 bobozai2019 的个人网站，主要用于个人说明和 AI 游戏作品展示。
+
+线上地址：https://bobozai2019.github.io
+
+GitHub：https://github.com/bobozai2019
+
+项目链接：https://github.com/bobozai2019/godot_2d_test_game
 
 ## 本地预览
 

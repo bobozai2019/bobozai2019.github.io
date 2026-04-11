@@ -243,6 +243,17 @@ h3 {
   color: var(--muted);
 }
 
+.text-link {
+  display: inline-flex;
+  margin-top: 16px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.text-link:hover {
+  color: var(--accent-strong);
+}
+
 .contact {
   color: #fff;
   background: var(--ink);
