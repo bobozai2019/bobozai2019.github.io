@@ -1,0 +1,18 @@
+# 个人网站
+
+这是一个适合 GitHub Pages 部署的静态个人网站第一版。
+
+## 本地预览
+
+直接用浏览器打开 `index.html` 即可预览。
+
+## 部署到 GitHub Pages
+
+1. 在 GitHub 创建一个新仓库。
+2. 将本目录内容提交并推送到仓库。
+3. 打开仓库的 `Settings` -> `Pages`。
+4. `Build and deployment` 选择 `Deploy from a branch`。
+5. 分支选择 `main`，目录选择 `/root`。
+6. 保存后等待部署完成。
+
+之后修改内容并推送到 `main` 分支，GitHub Pages 会自动更新网站。
