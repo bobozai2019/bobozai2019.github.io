@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>bobozai2019 | AI 游戏程序员</title>
+    <title>bobozai2019 | AI Game Programmer</title>
     <meta
       name="description"
-      content="bobozai2019 的个人说明与 AI 游戏作品展示。"
+      content="bobozai2019 的游戏 AI 程序员作品集，聚焦 Godot 项目分析、AI 辅助开发和游戏原型。"
     >
     <link rel="preconnect" href="https://images.unsplash.com">
     <link rel="stylesheet" href="styles.css">
@@ -16,90 +16,146 @@
       <a class="brand" href="#top">bobozai2019</a>
       <nav aria-label="主导航">
         <a href="#about">关于</a>
-        <a href="#work">作品</a>
+        <a href="#work">项目</a>
         <a href="#contact">联系</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero" aria-label="首页介绍">
-        <div class="hero-overlay"></div>
         <div class="hero-content">
-          <p class="eyebrow">AI Game Developer / Portfolio</p>
-          <h1>你好，我是 bobozai2019，用 AI 做游戏的程序员。</h1>
+          <p class="eyebrow">AI Game Programmer / Godot Tooling</p>
+          <h1>用 AI 分析 Godot 项目，也用 AI 更快做游戏。</h1>
           <p>
-            我关注 AI 与游戏开发的结合，尝试用更高效的方式完成玩法原型、关卡实验和 2D 游戏项目。
+            我专注游戏 AI 工具链、Godot 项目静态分析、架构恢复和玩法原型开发，把 AI 变成能落地的游戏开发流程。
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#work">查看作品</a>
-            <a class="button secondary" href="https://github.com/bobozai2019" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button primary" href="https://github.com/bobozai2019/godot-project-analysis" target="_blank" rel="noreferrer">查看核心项目</a>
+            <a class="button secondary" href="#work">浏览作品</a>
+          </div>
+          <div class="hero-tags" aria-label="能力关键词">
+            <span>Godot 4.x</span>
+            <span>Static Analysis</span>
+            <span>Architecture Recovery</span>
+            <span>AI Workflow</span>
           </div>
         </div>
+
+        <aside class="signal-panel" aria-label="Godot Project Analysis 流程概览">
+          <div class="panel-topline">
+            <span class="status-dot"></span>
+            <span>godot-project-analysis</span>
+          </div>
+          <div class="signal-map">
+            <div class="signal-node active">Layer 0<br><strong>Foundation</strong></div>
+            <div class="signal-node">Layer 1<br><strong>Parser</strong></div>
+            <div class="signal-node">Layer 2<br><strong>Graph</strong></div>
+            <div class="signal-node">Layer 3<br><strong>Semantic</strong></div>
+            <div class="signal-node active">Layer 4<br><strong>Architecture</strong></div>
+          </div>
+          <div class="panel-metrics">
+            <div>
+              <strong>0-4</strong>
+              <span>Layer Pipeline</span>
+            </div>
+            <div>
+              <strong>Godot</strong>
+              <span>Scene / Script / Resource</span>
+            </div>
+            <div>
+              <strong>Report</strong>
+              <span>Findings / Risks / Advice</span>
+            </div>
+          </div>
+        </aside>
       </section>
 
       <section class="section intro" id="about">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2>关于我</h2>
+          <h2>游戏 AI 程序员，偏工具链和玩法落地。</h2>
         </div>
         <div class="intro-grid">
-          <div>
+          <div class="intro-copy">
             <p>
-              我是一个用 AI 做游戏的程序员，主要关注 AI 辅助开发、Godot 2D 游戏原型、玩法验证和工具化工作流。
+              我把 AI 当成游戏开发中的工程伙伴：帮助理解项目结构、拆解 Godot 场景与脚本、整理架构风险，也辅助完成玩法原型、调试和迭代。
             </p>
             <p>
-              这个网站用于整理我的个人说明和作品展示，后续会持续补充项目截图、试玩地址、开发记录和源代码链接。
+              新项目 Godot Project Analysis 是一个 Codex skill pack，用 Layer 0-4 流程分析 Godot 4.x 项目，输出关系图、语义系统和可追踪的架构报告。
             </p>
           </div>
           <ul class="skill-list" aria-label="能力关键词">
-            <li>AI 辅助开发</li>
-            <li>Godot 2D</li>
-            <li>游戏原型</li>
-            <li>玩法验证</li>
+            <li><span>01</span>Godot 项目分析</li>
+            <li><span>02</span>游戏架构恢复</li>
+            <li><span>03</span>AI 辅助开发</li>
+            <li><span>04</span>2D 玩法原型</li>
           </ul>
         </div>
       </section>
 
       <section class="section" id="work">
         <div class="section-heading">
-          <p class="eyebrow">Work</p>
-          <h2>作品展示</h2>
+          <p class="eyebrow">Selected Projects</p>
+          <h2>核心项目</h2>
         </div>
         <div class="work-grid">
-          <article class="work-card">
+          <article class="work-card featured">
             <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
-              alt="桌面上的代码编辑器和笔记本电脑"
+              src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+              alt="服务器机柜和数据连接"
             >
             <div class="work-card-content">
-              <p class="work-type">Godot / 2D Game</p>
+              <p class="work-type">Godot AI Tooling / Codex Skill Pack</p>
+              <h3>Godot Project Analysis</h3>
+              <p>
+                一个面向 Godot 4.x 的静态分析和架构恢复工具包。它通过 Layer 0-4 流程解析场景、脚本、资源、信号和依赖关系，生成证据驱动的架构报告。
+              </p>
+              <div class="project-tags">
+                <span>Layer 0-4</span>
+                <span>Graph Builder</span>
+                <span>Semantic Systems</span>
+                <span>Architecture Report</span>
+              </div>
+              <a class="text-link" href="https://github.com/bobozai2019/godot-project-analysis" target="_blank" rel="noreferrer">查看项目源码</a>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <img
+              src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?auto=format&fit=crop&w=1200&q=80"
+              alt="带有像素风格界面的游戏手柄和屏幕"
+            >
+            <div class="work-card-content">
+              <p class="work-type">Godot / 2D Game Prototype</p>
               <h3>godot_2d_test_game</h3>
-              <p>一个 Godot 2D 游戏测试项目，用于验证基础玩法、场景组织和 AI 辅助开发流程。</p>
+              <p>
+                Godot 2D 游戏测试项目，用来验证基础玩法、场景组织和 AI 辅助开发流程。
+              </p>
+              <div class="project-tags">
+                <span>Godot 2D</span>
+                <span>Prototype</span>
+                <span>Gameplay Test</span>
+              </div>
               <a class="text-link" href="https://github.com/bobozai2019/godot_2d_test_game" target="_blank" rel="noreferrer">查看项目源码</a>
             </div>
           </article>
 
           <article class="work-card">
             <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
-              alt="数据图表和分析仪表盘"
+              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80"
+              alt="代码编辑器中的程序代码"
             >
             <div class="work-card-content">
-              <p class="work-type">AI Workflow</p>
+              <p class="work-type">AI Workflow / Game Development</p>
               <h3>AI 游戏开发流程</h3>
-              <p>整理使用 AI 辅助设计、编码、调试和迭代游戏原型的实践记录。</p>
-            </div>
-          </article>
-
-          <article class="work-card">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
-              alt="笔记本电脑上的在线协作界面"
-            >
-            <div class="work-card-content">
-              <p class="work-type">Prototype</p>
-              <h3>更多游戏原型</h3>
-              <p>后续会继续补充新的玩法实验、截图、试玩链接和项目说明。</p>
+              <p>
+                整理 AI 参与游戏开发的实践：从项目理解、架构梳理、代码生成到调试复盘，让原型迭代更快、更可追踪。
+              </p>
+              <div class="project-tags">
+                <span>Prompt Workflow</span>
+                <span>Debugging</span>
+                <span>Iteration</span>
+              </div>
             </div>
           </article>
         </div>
@@ -108,14 +164,14 @@
       <section class="section contact" id="contact">
         <div class="section-heading">
           <p class="eyebrow">Contact</p>
-          <h2>联系方式</h2>
+          <h2>项目和更新都在 GitHub。</h2>
         </div>
         <div class="contact-content">
-          <p>欢迎通过 GitHub 查看我的项目和更新记录。</p>
+          <p>欢迎查看我的 Godot 分析工具、游戏原型和后续 AI 游戏开发记录。</p>
           <div class="contact-links">
             <a href="https://github.com/bobozai2019" target="_blank" rel="noreferrer">GitHub: bobozai2019</a>
+            <a href="https://github.com/bobozai2019/godot-project-analysis" target="_blank" rel="noreferrer">godot-project-analysis</a>
             <a href="https://github.com/bobozai2019/godot_2d_test_game" target="_blank" rel="noreferrer">godot_2d_test_game</a>
-            <a href="https://bobozai2019.github.io" target="_blank" rel="noreferrer">bobozai2019.github.io</a>
           </div>
         </div>
       </section>
