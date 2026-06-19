@@ -19,7 +19,7 @@
 
 Add checks for the new project URL, game AI positioning, `Godot Project Analysis`, `Layer 0-4`, and dark technical CSS markers.
 
-- [ ] **Step 2: Run verification to confirm it fails**
+- [x] **Step 2: Run verification to confirm it fails**
 
 Run: `powershell -ExecutionPolicy Bypass -File .\scripts\verify-site.ps1`
 
@@ -30,11 +30,11 @@ Expected: FAIL for missing new project and visual markers.
 **Files:**
 - Modify: `index.html`
 
-- [ ] **Step 1: Update hero and about sections**
+- [x] **Step 1: Update hero and about sections**
 
 Replace generic AI game wording with game AI programmer positioning focused on Godot tooling, static analysis, architecture recovery, and prototypes.
 
-- [ ] **Step 2: Update project cards**
+- [x] **Step 2: Update project cards**
 
 Add `Godot Project Analysis` as the first project, keep `godot_2d_test_game`, and add a workflow/project pipeline card.
 
@@ -43,11 +43,11 @@ Add `Godot Project Analysis` as the first project, keep `godot_2d_test_game`, an
 **Files:**
 - Modify: `styles.css`
 
-- [ ] **Step 1: Implement dark technical lab styling**
+- [x] **Step 1: Implement dark technical lab styling**
 
 Replace the plain light style with a dark base, visible section hierarchy, stronger project cards, chips, stats, and hero signal panel.
 
-- [ ] **Step 2: Check responsive behavior**
+- [x] **Step 2: Check responsive behavior**
 
 Ensure the layout collapses cleanly on mobile and no text relies on viewport-scaled font sizes.
 
@@ -57,16 +57,16 @@ Ensure the layout collapses cleanly on mobile and no text relies on viewport-sca
 - Modify: `.gitignore`
 - Verify: `scripts/verify-site.ps1`
 
-- [ ] **Step 1: Run verification**
+- [x] **Step 1: Run verification**
 
 Run: `powershell -ExecutionPolicy Bypass -File .\scripts\verify-site.ps1`
 
 Expected: all checks PASS.
 
-- [ ] **Step 2: Review git diff**
+- [x] **Step 2: Review git diff**
 
 Run: `git diff -- index.html styles.css .gitignore scripts/verify-site.ps1 docs/superpowers/specs/2026-04-18-game-ai-portfolio-design.md docs/superpowers/plans/2026-04-18-game-ai-portfolio.md`
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 Run: `git add .gitignore index.html styles.css scripts/verify-site.ps1 docs/superpowers/specs/2026-04-18-game-ai-portfolio-design.md docs/superpowers/plans/2026-04-18-game-ai-portfolio.md && git commit -m "Update game AI portfolio site"`
