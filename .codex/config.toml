@@ -1,0 +1,9 @@
+﻿# Project-level Codex configuration
+# MCP servers for this project
+
+[mcp_servers.image-recognition]
+type = "stdio"
+command = "python"
+args = [ "D:\\AIprogram\\myaitool\\mcp-servers\\image-recognition\\server.py" ]
+enabled = true
+
